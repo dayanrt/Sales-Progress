@@ -23,7 +23,7 @@ st.dataframe(df_selection)
 st.title("CT MX 2024-2025 Dashboard")
 st.markdown("##")
 total_sales1 = int(df_selection["Total amount GBP"].sum())
-SLA = -200000
+SLA = -433000
 Intercompany = -168000
 left_column, middle_column, right_column = st.columns(3)
 with left_column: 
